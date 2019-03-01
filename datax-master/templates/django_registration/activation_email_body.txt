@@ -1,0 +1,12 @@
+{% load i18n %}
+Hi, {{ user.username }}
+
+{% trans 'Please use the following link to activate your account.' %}
+
+{% comment %}
+Just wondering why the fuck the following format is not mentioned
+in THE FUCKING DOCUMENTATION!!!
+{% endcomment %}
+{{ scheme }}://{{ site }}{% url 'django_registration_activate' activation_key %}
+
+{% blocktrans %}The activation link is only valid for {{ expiration_days }} days{% endblocktrans %}

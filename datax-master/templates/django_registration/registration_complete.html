@@ -1,0 +1,14 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Registration Completed" %}{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+    <h1>{% trans 'You registration has been completed.' %}</h1>
+    <p>{% trans 'Please check you email for activating your account.' %}</p>
+    </div>
+</div>
+<p></p>
+{% endblock %}

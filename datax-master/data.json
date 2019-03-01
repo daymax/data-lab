@@ -1,0 +1,76 @@
+[
+{
+  "model": "assignment.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$Z6nPqQ4d803n$91Yls7vbbbe5+vzdBpI5XqSYOxTf1gP1lgNQvRJYDwk=",
+    "last_login": "2019-02-28T02:46:57.257Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "email": "superadmin@datax.ai",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-02-28T01:39:00Z",
+    "username": "superadmin",
+    "assigned_id": "iw-AfdcxiZYHHuL",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "assignment.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$120000$A1VJLKdBS6fn$o9ACyuTqPNg3V5gJTteqOEFp72e147QPT91M2Ln47Gw=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-02-28T01:44:07.465Z",
+    "username": "demouser",
+    "assigned_id": "iw-ZAYibvyeU5Xe",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "assignment.assignment",
+  "pk": 1,
+  "fields": {
+    "title": "Market Research",
+    "description": "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+    "created_date": "2019-02-28T01:41:29.161Z",
+    "expire_date": "2019-03-22T01:41:00Z",
+    "creator": 2,
+    "earning": "2.45"
+  }
+},
+{
+  "model": "assignment.assignment",
+  "pk": 2,
+  "fields": {
+    "title": "Supply photos of trees in park",
+    "description": "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+    "created_date": "2019-02-28T01:42:00.326Z",
+    "expire_date": "2019-03-17T01:41:00Z",
+    "creator": 2,
+    "earning": "8.00"
+  }
+},
+{
+  "model": "assignment.assignment",
+  "pk": 3,
+  "fields": {
+    "title": "Identify different type of fruit",
+    "description": "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+    "created_date": "2019-02-28T01:42:31.016Z",
+    "expire_date": "2019-03-15T22:00:00Z",
+    "creator": 3,
+    "earning": "90.50"
+  }
+}
+]

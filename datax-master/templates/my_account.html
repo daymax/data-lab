@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}DataX{% endblock %}
+
+{% block content %}
+    {% include "sidebar.html" %}
+    <div class="col-md-9 col-xl-10">
+    <main role="main" class="col-12 ml-sm-auto pt-3 px-4">
+        <h4>Hi, {{ user.username }}(<span class="text-muted">{{ user.assigned_id }}</span>)</h4>
+        <hr>
+        {% if user.is_social_user %}
+        <p>{% trans "You logged in with Social Service." %}</p>
+        {% else %}
+        <a class="btn btn-primary" href="{% url 'password_change'%}">
+            {% trans "Change Password" %}
+        </a>
+        {% endif %}
+        <hr>
+        <p> More to come...<p>
+    </main>
+    </div>
+{% endblock %}

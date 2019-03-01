@@ -1,0 +1,13 @@
+{% extends '../base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Account Activation Failed" %}{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+    <h1>{% trans 'Account Activation Failed'%}...</h1>
+    <p>{% trans 'Your activation code is wrong or expired. You might need to sign up again.' %}</p>
+    </div>
+</div>
+{% endblock %}

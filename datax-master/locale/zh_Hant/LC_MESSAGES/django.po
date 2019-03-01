@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 18:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: datax/settings.py:143
+msgid "English"
+msgstr ""
+
+#: datax/settings.py:144
+msgid "Chinese"
+msgstr ""
+
+#: templates/django_registration/activation_complete.html:4
+#, fuzzy
+#| msgid "Account Activation Failed"
+msgid "Account Activated Successfully"
+msgstr "賬戶激活成功"
+
+#: templates/django_registration/activation_complete.html:9
+#, fuzzy
+#| msgid "You registration has been completed."
+msgid "Your account has been activated successfully."
+msgstr "您的账户已被成功激活。"
+
+#: templates/django_registration/activation_complete.html:10
+msgid "You can login now."
+msgstr "您现在可以登录。"
+
+#: templates/django_registration/activation_complete.html:11
+#: templates/header.html:43 templates/registration/login.html:5
+#: templates/registration/login.html:10
+#: templates/registration/password_reset_complete.html:10
+msgid "Login"
+msgstr "登錄"
+
+#: templates/django_registration/activation_email_body.txt:4
+msgid "Please use the following link to activate your account."
+msgstr "請使用以下鏈接激活您的賬戶。"
+
+#: templates/django_registration/activation_email_body.txt:12
+#, fuzzy, python-format
+#| msgid "The activation link(code) is only valid for"
+msgid "The activation link is only valid for %(expiration_days)s days"
+msgstr "本激活鏈接僅于 %(expiration_days)s 天內有效"
+
+#: templates/django_registration/activation_email_subject.txt:2
+#, python-format
+msgid "Account Activation For %(site)s"
+msgstr "來自  %(site)s 的賬戶激活郵件"
+
+#: templates/django_registration/activation_failed.html:4
+#: templates/django_registration/activation_failed.html:9
+msgid "Account Activation Failed"
+msgstr "賬戶激活失敗"
+
+#: templates/django_registration/activation_failed.html:10
+msgid ""
+"Your activation code is wrong or expired. You might need to sign up again."
+msgstr "您的激活代碼錯誤或失效。您可能需要重新註冊。"
+
+#: templates/django_registration/registration_complete.html:4
+msgid "Registration Completed"
+msgstr "註冊完成"
+
+#: templates/django_registration/registration_complete.html:9
+msgid "You registration has been completed."
+msgstr "您的註冊已完成"
+
+#: templates/django_registration/registration_complete.html:10
+msgid "Please check you email for activating your account."
+msgstr "請檢查您的郵件以激活賬戶。"
+
+#: templates/django_registration/registration_form.html:5
+#: templates/registration/login.html:10
+msgid "Register"
+msgstr "註冊"
+
+#: templates/django_registration/registration_form.html:11
+#: templates/registration/login.html:28
+#: templates/registration/password_change_form.html:11
+#: templates/registration/password_reset_confirm.html:11
+#: templates/registration/password_reset_form.html:11
+msgid "Submit"
+msgstr "提交"
+
+#: templates/header.html:12
+msgid "Home"
+msgstr "主頁"
+
+#: templates/header.html:15
+msgid "About"
+msgstr "關於"
+
+#: templates/header.html:34
+msgid "Search the ARs"
+msgstr "搜索任務"
+
+#: templates/header.html:39 templates/registration/logout.html:5
+msgid "Logout"
+msgstr "登出"
+
+#: templates/index.html:13 templates/search.html:13
+msgid "Title"
+msgstr "標題"
+
+#: templates/index.html:14 templates/search.html:14
+msgid "Created Date"
+msgstr "添加日期"
+
+#: templates/index.html:15 templates/search.html:15
+msgid "Expire Date"
+msgstr "失效日期"
+
+#: templates/index.html:16 templates/search.html:16
+msgid "Earning"
+msgstr "收入"
+
+#: templates/index.html:17 templates/search.html:17
+msgid "Creator"
+msgstr "創建者"
+
+#: templates/index.html:37
+msgid "Just a Blank Homepage. Login in for more information."
+msgstr "示例空白主頁。請登錄獲取更多信息。"
+
+#: templates/my_account.html:13
+msgid "You logged in with Social Service."
+msgstr "您正使用社交賬號登錄。"
+
+#: templates/my_account.html:16
+#: templates/registration/password_change_done.html:4
+#: templates/registration/password_change_form.html:5
+msgid "Change Password"
+msgstr "更改密碼"
+
+#: templates/registration/login.html:10
+#: templates/registration/password_reset_confirm.html:5
+#: templates/registration/password_reset_form.html:5
+msgid "Reset Password"
+msgstr "重置密碼"
+
+#: templates/registration/logout.html:8
+msgid "you've already logged out!"
+msgstr "您已登出"
+
+#: templates/registration/password_change_done.html:9
+msgid "Your password was changed."
+msgstr "您的密碼已更改"
+
+#: templates/registration/password_reset_complete.html:4
+msgid "Password Reset Completed"
+msgstr "密碼重置已完成"
+
+#: templates/registration/password_reset_complete.html:9
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "密碼已重置。您現在可以重新登錄。"
+
+#: templates/registration/password_reset_done.html:4
+msgid "Password Reset Email Sent"
+msgstr "重置密碼郵件已發送"
+
+#: templates/registration/password_reset_done.html:9
+msgid "Password Reset Email Has Been Sent."
+msgstr "重置密碼郵件已發送。"
+
+#: templates/registration/password_reset_done.html:10
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+
+#: templates/registration/password_reset_done.html:11
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: templates/registration/password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr "因為您曾申請重置您在 %(site_name)s 上的密碼，所以收到了本郵件。"
+
+#: templates/registration/password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr "請進入如下網頁創建一個新密碼："
+
+#: templates/registration/password_reset_email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr "您的用戶名，"
+
+#: templates/registration/password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr "感謝您使用我們的網站"
+
+#: templates/registration/password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "%(site_name)s 團隊"
+
+#: templates/sidebar.html:7
+msgid "My Account"
+msgstr "我的賬戶"
+
+#: templates/sidebar.html:8
+msgid "Assignments"
+msgstr "任務"
+
+#: templates/sidebar.html:9
+msgid "Profile Settings"
+msgstr "賬戶設置"
+
+#: templates/signup.html:5
+msgid "Sign Up"
+msgstr "註冊"

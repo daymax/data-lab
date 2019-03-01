@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}DataX{% endblock %}
+
+{% block content %}
+    {% include "sidebar.html" %}
+    <div class="col-md-9 col-xl-10">
+    <main role="main" class="col-12 ml-sm-auto pt-3 px-4">
+        <table class="table table-sm table-striped">
+        <thead>
+            <tr>
+            <th scope="col">{% trans "Title" %}</th>
+            <th scope="col">{% trans "Created Date" %}</th>
+            <th scope="col">{% trans "Expire Date" %}</th>
+            <th scope="col">{% trans "Earning" %}</th>
+            <th scope="col">{% trans "Creator" %}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for a in assignments %}
+            <tr>
+            <td>{{ a.title }}</td>
+            <td>{{ a.created_date | date:"Y-m-d"}}</td>
+            <td>{{ a.expire_date | date:"Y-m-d"}}</td>
+            <td>{{ a.earning }}</td>
+            <td>{{ a.creator.assigned_id }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+            <td colspan="5">Nothing found</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+    </main>
+    </div>
+{% endblock %}

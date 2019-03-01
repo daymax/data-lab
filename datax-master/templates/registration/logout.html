@@ -1,0 +1,23 @@
+{% extends '../base.html' %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+
+{% block title %}{% trans "Logout" %}{% endblock %}
+
+{% block content %}
+<h5>{% trans "you've already logged out!"%}
+{% comment %} <form class="pt-4 mx-auto" method="post" id="login-form" style="max-width: 420px">
+  {% csrf_token %}
+  <div class="form-group">
+    <label for="username">{% trans 'Username' %}</label>
+    <input type="text" name="username" class="form-control" id="input-username" placeholder="Username" autofocus required>
+  </div>
+  <div class="form-group">
+    <label for="password">{% trans 'Password' %}</label>
+    <input type="password" name="password" class="form-control" id="input-password" placeholder="Password">
+  </div>
+  <a href="{% url "social:begin" "google-oauth2" %}">Google</a>
+  <a href="{% url "social:begin" "twitter" %}">Twitter</a>
+  <button type="submit" class="btn btn-primary">{% trans 'Submit' %}</button>
+</form> {% endcomment %}
+{% endblock %}
